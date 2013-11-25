@@ -1,0 +1,98 @@
+magic
+tech scmos
+timestamp 1385413180
+<< pwell >>
+rect 145 150 197 164
+rect 120 120 197 150
+<< nwell >>
+rect 105 174 197 188
+rect 105 170 155 174
+<< polysilicon >>
+rect 54 111 58 195
+rect 71 191 75 195
+rect 93 191 234 195
+rect 163 179 167 181
+rect 185 179 189 181
+rect 163 171 167 175
+rect 163 163 167 167
+rect 185 171 189 175
+rect 185 163 189 167
+rect 163 157 167 159
+rect 185 157 189 159
+rect 54 107 136 111
+<< ndiffusion >>
+rect 160 159 163 163
+rect 167 159 170 163
+rect 182 159 185 163
+rect 189 159 192 163
+<< pdiffusion >>
+rect 160 175 163 179
+rect 167 175 170 179
+rect 182 175 185 179
+rect 189 175 192 179
+<< metal1 >>
+rect 31 183 60 187
+rect 119 183 234 187
+rect 31 87 35 183
+rect 156 179 160 183
+rect 178 179 182 183
+rect 170 171 174 175
+rect 192 171 196 175
+rect 148 167 163 171
+rect 170 167 185 171
+rect 192 167 209 171
+rect 148 141 152 167
+rect 170 163 174 167
+rect 192 163 196 167
+rect 156 125 160 159
+rect 178 125 182 159
+rect 119 121 192 125
+rect 205 111 209 167
+rect 1 62 5 66
+rect 234 49 238 53
+rect 230 10 234 14
+<< metal2 >>
+rect 196 121 238 125
+rect 234 14 238 121
+rect 129 -4 133 0
+<< ntransistor >>
+rect 163 159 167 163
+rect 185 159 189 163
+<< ptransistor >>
+rect 163 175 167 179
+rect 185 175 189 179
+<< polycontact >>
+rect 163 167 167 171
+rect 185 167 189 171
+rect 205 107 209 111
+<< ndcontact >>
+rect 156 159 160 163
+rect 170 159 174 163
+rect 178 159 182 163
+rect 192 159 196 163
+<< pdcontact >>
+rect 156 175 160 179
+rect 170 175 174 179
+rect 178 175 182 179
+rect 192 175 196 179
+<< m2contact >>
+rect 192 121 196 125
+rect 234 10 238 14
+use XOR  XOR_0
+timestamp 1385331530
+transform 1 0 80 0 1 167
+box -20 -47 68 24
+use adder  adder_0
+timestamp 1385140467
+transform 1 0 84 0 1 47
+box -84 -47 150 60
+<< labels >>
+rlabel polysilicon 56 194 56 194 5 A
+rlabel polysilicon 73 194 73 194 5 B
+rlabel metal1 237 51 237 51 7 Cin
+rlabel metal1 42 186 42 186 5 Vdd
+rlabel metal1 231 11 231 11 1 GND
+rlabel metal2 131 -3 131 -3 1 S
+rlabel metal1 2 64 2 64 3 Cout
+rlabel polysilicon 233 193 233 193 7 D
+<< end >>
