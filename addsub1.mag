@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1385333809
+<< polysilicon >>
+rect 161 169 165 173
+<< metal1 >>
+rect 19 161 134 165
+rect 41 61 45 161
+rect 142 89 146 173
+rect 187 169 250 173
+rect 238 89 242 123
+rect 219 85 242 89
+rect 6 40 15 44
+rect 246 31 250 169
+rect 244 27 254 31
+rect 240 -12 242 -8
+rect 246 -12 254 -8
+<< metal2 >>
+rect 138 161 150 165
+rect 229 99 246 103
+rect 242 -8 246 99
+rect 139 -26 143 -22
+<< polycontact >>
+rect 183 169 187 173
+rect 142 85 146 89
+rect 215 85 219 89
+<< m2contact >>
+rect 134 161 138 165
+rect 150 161 154 165
+rect 225 99 229 103
+rect 242 -12 246 -8
+use XOR  XOR_0
+timestamp 1385331530
+transform 1 0 170 0 1 145
+box -20 -47 68 24
+use adder  adder_0
+timestamp 1385140467
+transform 1 0 94 0 1 25
+box -84 -47 150 60
+<< labels >>
+rlabel polysilicon 163 172 163 172 5 B
+rlabel metal1 144 172 144 172 5 A
+rlabel metal1 253 29 253 29 7 Cin
+rlabel metal2 141 -25 141 -25 1 S
+rlabel metal1 7 42 7 42 3 Cout
+rlabel metal1 249 -11 249 -11 1 GND
+rlabel metal1 75 164 75 164 5 Vdd
+<< end >>
