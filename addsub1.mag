@@ -1,48 +1,97 @@
 magic
 tech scmos
-timestamp 1385333809
+timestamp 1385411289
 << polysilicon >>
-rect 161 169 165 173
+rect 64 89 68 173
+rect 81 169 85 173
+rect 174 157 178 159
+rect 196 157 200 159
+rect 174 149 178 153
+rect 174 141 178 145
+rect 196 149 200 153
+rect 196 141 200 145
+rect 174 135 178 137
+rect 196 135 200 137
+rect 64 85 146 89
+<< ndiffusion >>
+rect 171 137 174 141
+rect 178 137 181 141
+rect 193 137 196 141
+rect 200 137 203 141
+<< pdiffusion >>
+rect 171 153 174 157
+rect 178 153 181 157
+rect 193 153 196 157
+rect 200 153 203 157
 << metal1 >>
-rect 19 161 134 165
+rect 107 169 250 173
+rect 19 161 242 165
 rect 41 61 45 161
-rect 142 89 146 173
-rect 187 169 250 173
-rect 238 89 242 123
-rect 219 85 242 89
+rect 167 157 171 161
+rect 189 157 193 161
+rect 181 149 185 153
+rect 203 149 207 153
+rect 158 145 174 149
+rect 181 145 196 149
+rect 203 145 219 149
+rect 158 119 162 145
+rect 181 141 185 145
+rect 203 141 207 145
+rect 167 103 171 137
+rect 189 103 193 137
+rect 215 89 219 145
 rect 6 40 15 44
 rect 246 31 250 169
 rect 244 27 254 31
 rect 240 -12 242 -8
 rect 246 -12 254 -8
 << metal2 >>
-rect 138 161 150 165
-rect 229 99 246 103
+rect 149 99 167 103
+rect 171 99 189 103
+rect 193 99 246 103
 rect 242 -8 246 99
 rect 139 -26 143 -22
+<< ntransistor >>
+rect 174 137 178 141
+rect 196 137 200 141
+<< ptransistor >>
+rect 174 153 178 157
+rect 196 153 200 157
 << polycontact >>
-rect 183 169 187 173
-rect 142 85 146 89
+rect 103 169 107 173
+rect 174 145 178 149
+rect 196 145 200 149
 rect 215 85 219 89
+<< ndcontact >>
+rect 167 137 171 141
+rect 181 137 185 141
+rect 189 137 193 141
+rect 203 137 207 141
+rect 120 1 124 5
+<< pdcontact >>
+rect 167 153 171 157
+rect 181 153 185 157
+rect 189 153 193 157
+rect 203 153 207 157
 << m2contact >>
-rect 134 161 138 165
-rect 150 161 154 165
-rect 225 99 229 103
+rect 145 99 149 103
+rect 167 99 171 103
+rect 189 99 193 103
 rect 242 -12 246 -8
 use XOR  XOR_0
 timestamp 1385331530
-transform 1 0 170 0 1 145
+transform 1 0 90 0 1 145
 box -20 -47 68 24
 use adder  adder_0
 timestamp 1385140467
 transform 1 0 94 0 1 25
 box -84 -47 150 60
 << labels >>
-rlabel polysilicon 163 172 163 172 5 B
-rlabel metal1 144 172 144 172 5 A
 rlabel metal1 253 29 253 29 7 Cin
 rlabel metal2 141 -25 141 -25 1 S
 rlabel metal1 7 42 7 42 3 Cout
 rlabel metal1 249 -11 249 -11 1 GND
 rlabel metal1 75 164 75 164 5 Vdd
+rlabel polysilicon 83 172 83 172 5 B
+rlabel polysilicon 66 172 66 172 5 A
 << end >>
