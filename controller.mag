@@ -1,0 +1,112 @@
+magic
+tech scmos
+timestamp 1385439171
+<< polysilicon >>
+rect 131 133 139 137
+rect 143 133 188 137
+rect 131 119 167 123
+rect 131 105 135 119
+rect 163 101 167 119
+rect 163 97 188 101
+rect 238 90 242 94
+rect 238 69 242 73
+rect 131 51 135 67
+rect 131 47 160 51
+rect -95 -86 -83 -82
+<< metal1 >>
+rect 222 152 226 156
+rect 11 148 226 152
+rect 11 71 15 148
+rect 123 144 127 148
+rect 222 144 226 148
+rect 7 67 15 71
+rect -91 60 -78 64
+rect -91 -47 -87 60
+rect 7 42 33 46
+rect 7 34 25 38
+rect 7 4 13 8
+rect -91 -51 -78 -47
+rect -91 -176 -87 -51
+rect -79 -79 -75 -75
+rect -79 -86 -75 -82
+rect -79 -93 -78 -89
+rect 7 -113 13 -109
+rect -91 -180 -78 -176
+rect 21 -388 25 34
+rect 29 -380 33 42
+rect 123 -11 127 4
+rect 103 -15 127 -11
+rect 123 -380 127 -375
+rect 139 -380 143 133
+rect 242 47 252 51
+rect 222 -11 226 26
+rect 213 -15 226 -11
+rect 29 -384 143 -380
+rect 233 -388 237 -375
+rect 248 -388 252 47
+rect 21 -392 252 -388
+<< metal2 >>
+rect 150 144 154 156
+rect -95 38 -84 42
+rect 17 4 71 8
+rect -95 -23 -82 -19
+rect -95 -79 -83 -75
+rect -96 -93 -83 -89
+rect 13 -109 17 4
+rect 54 -60 58 4
+rect 71 -5 75 4
+rect 150 -5 154 26
+rect 71 -9 154 -5
+rect 54 -64 62 -60
+rect 150 -63 154 -9
+rect 150 -67 172 -63
+rect -95 -134 -82 -130
+<< polycontact >>
+rect 139 133 143 137
+rect 238 47 242 51
+rect -83 -86 -79 -82
+<< m2contact >>
+rect 150 140 154 144
+rect -84 38 -80 42
+rect 13 4 17 8
+rect -82 -23 -78 -19
+rect -83 -79 -79 -75
+rect -83 -93 -79 -89
+rect 13 -113 17 -109
+rect -82 -134 -78 -130
+rect 71 4 75 8
+rect 62 -64 66 -60
+rect 150 26 154 30
+rect 172 -67 176 -63
+use curstate  curstate_0
+timestamp 1385405601
+transform 1 0 -83 0 1 2
+box 3 -182 90 69
+use NextState1  NextState1_0
+timestamp 1385162186
+transform 0 1 109 -1 0 78
+box -67 -39 78 22
+use NextState2  NextState2_0
+timestamp 1385437457
+transform 0 1 165 -1 0 61
+box -84 -16 39 73
+use reg1_load  reg1_load_0
+timestamp 1385424341
+transform 0 1 58 -1 0 -85
+box -72 -4 290 77
+use reg1_load  reg1_load_1
+timestamp 1385424341
+transform 0 1 168 -1 0 -85
+box -72 -4 290 77
+<< labels >>
+rlabel metal2 -94 40 -94 40 3 load
+rlabel metal2 -94 -21 -94 -21 3 shift
+rlabel metal2 -94 -77 -94 -77 3 sel0
+rlabel polysilicon -94 -84 -94 -84 3 inbit
+rlabel metal2 -95 -91 -95 -91 3 add
+rlabel metal2 -94 -132 -94 -132 3 sel1
+rlabel polysilicon 241 71 241 71 7 n
+rlabel polysilicon 241 92 241 92 7 t
+rlabel metal1 224 155 224 155 5 Vdd
+rlabel metal2 152 155 152 155 5 GND
+<< end >>
