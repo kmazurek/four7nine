@@ -1,9 +1,11 @@
 magic
 tech scmos
-timestamp 1385405601
+timestamp 1385583533
 << pwell >>
 rect 5 -18 65 36
-rect 5 -111 66 -84
+rect 5 -91 66 -84
+rect 5 -118 82 -91
+rect 5 -119 50 -118
 << nwell >>
 rect 4 39 65 69
 rect 5 -81 66 -21
@@ -77,21 +79,26 @@ rect 34 -72 38 -68
 rect 40 -72 42 -68
 rect 46 -72 66 -68
 << metal1 >>
-rect 5 58 90 69
+rect 5 62 90 69
+rect 5 58 61 62
+rect 65 58 90 62
 rect 16 52 20 58
 rect 41 52 45 58
 rect 5 40 9 48
 rect 29 43 33 48
 rect 3 36 9 40
 rect 16 39 29 43
-rect 41 40 65 44
-rect 76 40 90 44
+rect 41 40 78 44
+rect 82 40 90 44
 rect 5 24 9 36
-rect 26 32 65 36
+rect 26 32 86 36
 rect 29 24 33 25
 rect 16 17 20 20
 rect 41 17 45 20
-rect 5 1 90 17
+rect 5 6 90 17
+rect 5 2 69 6
+rect 73 2 90 6
+rect 5 1 90 2
 rect 5 -2 9 1
 rect 30 -2 34 1
 rect 49 -2 53 1
@@ -107,7 +114,10 @@ rect 38 -30 42 -26
 rect 5 -40 9 -34
 rect 30 -40 34 -34
 rect 49 -40 53 -34
-rect 5 -62 90 -40
+rect 5 -49 90 -40
+rect 5 -53 61 -49
+rect 65 -53 90 -49
+rect 5 -62 90 -53
 rect 17 -68 21 -62
 rect 42 -68 46 -62
 rect 30 -77 34 -72
@@ -116,24 +126,34 @@ rect 42 -80 50 -76
 rect 54 -80 78 -76
 rect 5 -88 23 -84
 rect 27 -88 86 -84
-rect 5 -95 8 -91
+rect 5 -95 10 -91
 rect 30 -96 34 -95
 rect 17 -103 21 -100
 rect 42 -103 46 -100
-rect 5 -111 90 -103
-rect 33 -116 90 -111
-rect 86 -182 90 -174
+rect 5 -107 69 -103
+rect 73 -107 90 -103
+rect 5 -117 90 -107
+rect 5 -120 15 -117
+rect 82 -122 90 -117
 << metal2 >>
 rect 29 29 33 39
 rect 18 -21 22 -11
-rect 78 -14 82 44
 rect 34 -18 48 -14
-rect 8 -72 54 -68
-rect 8 -91 12 -72
+rect 61 -49 65 58
+rect 10 -72 54 -68
+rect 10 -91 14 -72
 rect 50 -76 54 -72
-rect 78 -76 82 -18
 rect 30 -91 34 -81
-rect 78 -146 82 -80
+rect 61 -109 65 -53
+rect 69 -103 73 2
+rect 78 -14 82 40
+rect 78 -76 82 -18
+rect 13 -113 65 -109
+rect 13 -180 17 -113
+rect 78 -120 82 -80
+rect 86 -21 90 32
+rect 86 -84 90 -25
+rect 86 -121 90 -88
 << ntransistor >>
 rect 12 20 14 24
 rect 22 20 24 24
@@ -188,42 +208,49 @@ rect 17 -72 21 -68
 rect 30 -72 34 -68
 rect 42 -72 46 -68
 << m2contact >>
+rect 61 58 65 62
 rect 29 39 33 43
+rect 78 40 82 44
+rect 86 32 90 36
 rect 29 25 33 29
+rect 69 2 73 6
 rect 18 -11 22 -7
 rect 30 -18 34 -14
 rect 18 -25 22 -21
 rect 48 -18 52 -14
 rect 78 -18 82 -14
 rect 86 -25 90 -21
+rect 61 -53 65 -49
 rect 30 -81 34 -77
 rect 50 -80 54 -76
 rect 78 -80 82 -76
 rect 86 -88 90 -84
-rect 8 -95 12 -91
+rect 10 -95 14 -91
 rect 30 -95 34 -91
+rect 69 -107 73 -103
+rect 13 -184 17 -180
 use XOR_sm  XOR_sm_0
-timestamp 1385402585
-transform 1 0 25 0 1 -135
-box -20 -47 65 179
+timestamp 1385583178
+transform 1 0 25 0 1 -141
+box -20 -47 65 24
 << labels >>
 rlabel metal1 3 36 3 40 7 load
 rlabel space 3 9 65 69 1 load_cell
-rlabel metal1 65 -25 65 -21 3 y0
-rlabel metal1 65 -18 65 -14 3 y1
-rlabel metal1 31 -46 50 -43 1 Vdd
-rlabel metal1 5 -25 6 -21 7 shift
-rlabel metal1 65 32 65 36 3 y0
-rlabel metal1 65 40 65 44 3 y1
 rlabel metal1 32 65 52 68 5 Vdd
-rlabel metal1 33 -55 53 -52 5 Vdd
-rlabel metal1 66 -80 66 -76 3 y1
-rlabel metal1 66 -88 66 -84 3 y0
-rlabel metal1 5 -81 5 -77 7 sel0
-rlabel metal1 5 -88 5 -84 7 inbit
-rlabel metal1 5 -95 5 -91 7 add
-rlabel metal1 20 -108 20 -108 1 GND
 rlabel metal1 28 10 28 10 1 GND
+rlabel metal1 20 -108 20 -108 1 GND
+rlabel metal1 5 -95 5 -91 7 add
+rlabel metal1 5 -88 5 -84 7 inbit
+rlabel metal1 5 -81 5 -77 7 sel0
+rlabel metal1 66 -88 66 -84 3 y0
+rlabel metal1 66 -80 66 -76 3 y1
+rlabel metal1 65 40 65 44 3 y1
+rlabel metal1 65 32 65 36 3 y0
+rlabel metal1 5 -25 6 -21 7 shift
+rlabel metal1 31 -46 50 -43 1 Vdd
+rlabel metal1 65 -18 65 -14 3 y1
+rlabel metal1 65 -25 65 -21 3 y0
 rlabel metal1 90 40 90 44 3 y1
-rlabel space 90 32 90 36 3 y0
+rlabel m2contact 90 32 90 36 3 y0
+rlabel m2contact 13 -184 17 -180 1 Vdd
 << end >>
