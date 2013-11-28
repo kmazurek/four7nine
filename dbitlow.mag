@@ -1,0 +1,59 @@
+magic
+tech scmos
+timestamp 1385648307
+<< pwell >>
+rect 159 142 398 173
+<< nwell >>
+rect 137 128 147 144
+<< metal1 >>
+rect 88 299 102 303
+rect 88 294 92 299
+rect 106 294 110 299
+rect 6 177 146 181
+rect 150 177 161 181
+rect 117 170 147 174
+rect 143 169 147 170
+rect 143 165 176 169
+rect 133 124 182 128
+rect 133 109 137 124
+rect 8 92 209 96
+<< metal2 >>
+rect 102 191 106 299
+rect 6 187 299 191
+rect 140 108 144 144
+rect 296 138 299 187
+rect 296 134 353 138
+rect 140 84 144 104
+rect 7 80 144 84
+rect 195 71 199 113
+rect 6 67 199 71
+<< polycontact >>
+rect 88 290 92 294
+rect 106 290 110 294
+<< m2contact >>
+rect 102 299 110 303
+rect 146 177 150 181
+rect 195 113 199 117
+rect 140 104 144 108
+use mux1  mux1_0
+timestamp 1385643805
+transform 1 0 126 0 1 198
+box -127 -6 275 678
+use shift1  shift1_0
+timestamp 1385586744
+transform 1 0 25 0 1 124
+box -19 -23 115 50
+use reg2  reg2_0
+timestamp 1385648307
+transform 1 0 96 0 1 4
+box 47 87 306 177
+<< labels >>
+rlabel metal2 6 187 10 191 7 Qout
+rlabel metal2 6 67 10 71 7 clk
+rlabel metal1 8 92 12 96 7 rst
+rlabel metal2 7 80 10 84 7 Din
+rlabel space 6 103 11 106 7 Vdd
+rlabel space 6 170 11 173 7 GND
+rlabel metal1 6 177 11 181 7 clkb
+rlabel metal1 140 177 145 181 1 clkb
+<< end >>
