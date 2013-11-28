@@ -1,11 +1,15 @@
 magic
 tech scmos
-timestamp 1385595364
+timestamp 1385599424
+<< error_s >>
+rect 219 150 224 154
 << polysilicon >>
 rect -56 88 -52 420
 rect -38 80 -34 429
 rect -20 79 -16 420
 << metal1 >>
+rect -118 674 40 678
+rect -118 666 38 670
 rect -127 416 275 420
 rect -127 408 275 412
 rect -127 400 275 404
@@ -43,21 +47,19 @@ rect -127 150 -116 154
 rect -127 142 -116 146
 rect -8 142 7 146
 rect -4 76 0 112
-rect 271 98 275 102
 rect -14 72 0 76
 rect -14 64 0 68
 rect -14 56 0 60
-rect -127 46 -124 50
+rect -127 46 -115 50
 rect -4 32 0 56
 rect -12 12 -8 20
 rect -12 8 7 12
 << metal2 >>
 rect -112 159 136 163
 rect -112 150 222 154
-rect 226 150 275 154
+rect 226 150 235 154
 rect -112 142 -12 146
 rect -12 84 -8 142
-rect 271 122 275 126
 << m2contact >>
 rect -116 159 -112 163
 rect 136 159 140 163
@@ -67,21 +69,19 @@ rect -116 142 -112 146
 rect -12 142 -8 146
 rect -12 80 -8 84
 use 31MUX  31MUX_0
-timestamp 1385158978
+timestamp 1385597075
 transform 1 0 -61 0 1 58
-box -63 -43 53 30
+box -58 -43 53 30
 use MUXsel  MUXsel_0
-timestamp 1385594193
+timestamp 1385597418
 transform 1 0 157 0 1 204
-box -157 -210 118 -41
+box -157 -210 78 -41
 << labels >>
 rlabel metal1 -1 145 -1 145 5 Vdd
 rlabel metal1 -5 9 -5 9 1 GND
 rlabel polysilicon -54 91 -54 91 5 In0
 rlabel polysilicon -36 91 -36 91 5 In1
 rlabel polysilicon -18 91 -18 91 5 In2
-rlabel metal2 274 124 274 124 7 Sel0
-rlabel metal1 274 100 274 100 7 Sel1
 rlabel metal1 -126 144 -126 144 3 Vdd
 rlabel metal1 -126 152 -126 152 3 sel0
 rlabel metal1 -126 161 -126 161 3 sel1
