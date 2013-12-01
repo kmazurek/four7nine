@@ -1,112 +1,137 @@
 magic
 tech scmos
-timestamp 1385439171
+timestamp 1385926733
 << polysilicon >>
-rect 131 133 139 137
-rect 143 133 188 137
-rect 131 119 167 123
-rect 131 105 135 119
-rect 163 101 167 119
-rect 163 97 188 101
-rect 238 90 242 94
-rect 238 69 242 73
-rect 131 51 135 67
-rect 131 47 160 51
-rect -95 -86 -83 -82
+rect 105 133 111 137
+rect 115 133 162 137
+rect 105 119 141 123
+rect 105 105 109 119
+rect 137 101 141 119
+rect 137 97 162 101
+rect 212 90 230 94
+rect 212 69 230 73
+rect 105 51 109 67
+rect 105 47 134 51
+rect -98 -86 -83 -82
 << metal1 >>
-rect 222 152 226 156
-rect 11 148 226 152
+rect 196 152 200 156
+rect 11 148 200 152
 rect 11 71 15 148
-rect 123 144 127 148
-rect 222 144 226 148
+rect 97 144 101 148
+rect 196 144 200 148
 rect 7 67 15 71
-rect -91 60 -78 64
-rect -91 -47 -87 60
 rect 7 42 33 46
 rect 7 34 25 38
-rect 7 4 13 8
-rect -91 -51 -78 -47
-rect -91 -176 -87 -51
+rect 7 3 13 7
 rect -79 -79 -75 -75
 rect -79 -86 -75 -82
 rect -79 -93 -78 -89
-rect 7 -113 13 -109
-rect -91 -180 -78 -176
-rect 21 -388 25 34
-rect 29 -380 33 42
-rect 123 -11 127 4
-rect 103 -15 127 -11
-rect 123 -380 127 -375
-rect 139 -380 143 133
-rect 242 47 252 51
-rect 222 -11 226 26
-rect 213 -15 226 -11
-rect 29 -384 143 -380
-rect 233 -388 237 -375
-rect 248 -388 252 47
-rect 21 -392 252 -388
+rect 21 -300 25 34
+rect 29 -292 33 42
+rect 111 17 115 133
+rect 216 47 241 51
+rect 200 26 229 30
+rect 160 18 176 22
+rect 111 13 137 17
+rect 37 -25 41 3
+rect 63 -15 67 0
+rect 97 -7 101 4
+rect 97 -11 125 -7
+rect 56 -19 67 -15
+rect 56 -24 60 -19
+rect 121 -24 125 -11
+rect 80 -292 84 -270
+rect 133 -292 137 13
+rect 141 -31 145 -5
+rect 160 -24 164 18
+rect 225 -24 229 26
+rect 29 -296 42 -292
+rect 46 -296 137 -292
+rect 184 -300 188 -270
+rect 237 -300 241 47
+rect 21 -304 51 -300
+rect 55 -304 241 -300
+rect 116 -312 193 -308
+rect 193 -324 197 -312
 << metal2 >>
-rect 150 144 154 156
-rect -95 38 -84 42
-rect 17 4 71 8
-rect -95 -23 -82 -19
-rect -95 -79 -83 -75
-rect -96 -93 -83 -89
-rect 13 -109 17 4
-rect 54 -60 58 4
-rect 71 -5 75 4
-rect 150 -5 154 26
-rect 71 -9 154 -5
-rect 54 -64 62 -60
-rect 150 -63 154 -9
-rect 150 -67 172 -63
-rect -95 -134 -82 -130
+rect 124 144 128 156
+rect -98 38 -84 42
+rect 17 3 37 7
+rect 41 3 45 7
+rect 45 -1 49 3
+rect 124 -1 128 26
+rect 45 -5 141 -1
+rect -98 -23 -82 -19
+rect -98 -79 -83 -75
+rect -98 -93 -83 -89
+rect -98 -140 -82 -136
+rect 49 -284 53 -270
+rect 49 -288 76 -284
+rect 42 -324 46 -296
+rect 51 -324 55 -304
+rect 72 -316 76 -288
+rect 112 -308 116 -271
+rect 153 -316 157 -271
+rect 216 -280 220 -271
+rect 193 -284 220 -280
+rect 193 -308 197 -284
+rect 72 -320 157 -316
+rect 153 -324 157 -320
 << polycontact >>
-rect 139 133 143 137
-rect 238 47 242 51
+rect 111 133 115 137
+rect 212 47 216 51
+rect 56 -28 60 -24
+rect 160 -28 164 -24
 rect -83 -86 -79 -82
 << m2contact >>
-rect 150 140 154 144
+rect 124 140 128 144
 rect -84 38 -80 42
-rect 13 4 17 8
+rect 13 3 17 7
 rect -82 -23 -78 -19
 rect -83 -79 -79 -75
 rect -83 -93 -79 -89
-rect 13 -113 17 -109
-rect -82 -134 -78 -130
-rect 71 4 75 8
-rect 62 -64 66 -60
-rect 150 26 154 30
-rect 172 -67 176 -63
+rect -82 -140 -78 -136
+rect 124 26 128 30
+rect 37 3 41 7
+rect 45 3 49 7
+rect 141 -5 145 -1
+rect 42 -296 46 -292
+rect 51 -304 55 -300
+rect 112 -312 116 -308
+rect 193 -312 197 -308
 use curstate  curstate_0
-timestamp 1385405601
+timestamp 1385583533
 transform 1 0 -83 0 1 2
-box 3 -182 90 69
+box 3 -188 90 69
 use NextState1  NextState1_0
 timestamp 1385162186
-transform 0 1 109 -1 0 78
+transform 0 1 83 -1 0 78
 box -67 -39 78 22
 use NextState2  NextState2_0
 timestamp 1385437457
-transform 0 1 165 -1 0 61
+transform 0 1 139 -1 0 61
 box -84 -16 39 73
-use reg1_load  reg1_load_0
-timestamp 1385424341
-transform 0 1 58 -1 0 -85
-box -72 -4 290 77
-use reg1_load  reg1_load_1
-timestamp 1385424341
-transform 0 1 168 -1 0 -85
-box -72 -4 290 77
+use reg1  reg1_0
+timestamp 1385924488
+transform 0 1 78 -1 0 -79
+box -59 -42 193 52
+use reg1  reg1_1
+timestamp 1385924488
+transform 0 1 182 -1 0 -79
+box -59 -42 193 52
 << labels >>
-rlabel metal2 -94 40 -94 40 3 load
-rlabel metal2 -94 -21 -94 -21 3 shift
-rlabel metal2 -94 -77 -94 -77 3 sel0
-rlabel polysilicon -94 -84 -94 -84 3 inbit
-rlabel metal2 -95 -91 -95 -91 3 add
-rlabel metal2 -94 -132 -94 -132 3 sel1
-rlabel polysilicon 241 71 241 71 7 n
-rlabel polysilicon 241 92 241 92 7 t
-rlabel metal1 224 155 224 155 5 Vdd
-rlabel metal2 152 155 152 155 5 GND
+rlabel metal2 -98 -21 -98 -21 7 shift
+rlabel metal2 -98 40 -98 40 7 load
+rlabel metal2 -98 -77 -98 -77 7 sel0
+rlabel polysilicon -98 -84 -98 -84 7 inbit
+rlabel metal2 -98 -91 -98 -91 7 add
+rlabel metal2 -98 -138 -98 -138 7 sel1
+rlabel metal2 44 -324 44 -324 5 y1
+rlabel metal2 53 -324 53 -324 5 y0
+rlabel metal1 198 155 198 155 5 Vdd
+rlabel metal2 126 155 126 155 5 GND
+rlabel polysilicon 229 92 229 92 7 t
+rlabel polysilicon 229 71 229 71 7 n
+rlabel metal1 195 -324 195 -324 5 clk
+rlabel metal2 155 -324 155 -324 5 rst
 << end >>
