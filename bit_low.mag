@@ -1,0 +1,38 @@
+magic
+tech scmos
+timestamp 1386039928
+<< polysilicon >>
+rect -20 -131 117 -129
+<< metal1 >>
+rect -36 165 9 169
+rect -37 156 8 160
+rect 351 -8 396 -4
+rect 351 -16 396 -12
+rect 352 -24 397 -20
+<< metal2 >>
+rect 345 -76 390 -72
+rect 347 -108 392 -104
+rect 349 -139 394 -135
+use mux1  mux1_0
+timestamp 1385976061
+transform 1 0 127 0 1 6
+box -127 -110 275 678
+use shift1  shift1_0
+timestamp 1385976061
+transform 1 0 -35 0 1 -163
+box -3 12 417 315
+use reg1  reg1_0
+timestamp 1385976061
+transform 1 0 62 0 1 -365
+box -82 213 320 474
+<< labels >>
+rlabel polysilicon -20 -131 64 -129 1 Din
+rlabel metal1 -36 165 9 169 1 sel1
+rlabel metal1 -37 156 8 160 1 sel0
+rlabel metal1 351 -8 396 -4 1 inbit
+rlabel metal1 351 -16 396 -12 1 inbit_next
+rlabel metal1 352 -24 397 -20 1 shift
+rlabel metal2 345 -76 390 -72 1 clk
+rlabel metal2 347 -108 392 -104 1 Qout
+rlabel metal2 349 -139 394 -135 3 rst
+<< end >>
