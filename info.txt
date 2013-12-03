@@ -1,0 +1,16 @@
+Jake Olney
+53031092
+Jake.Olney@live.ca
+
+Krzysztof Mazurek
+72329097
+mazurekm4@gmail.com
+
+
+
+
+N
+
+The design did not work. The suspected problem is that there is not enough time for the signal to propagate between registers before the clock changes.
+
+NONE
