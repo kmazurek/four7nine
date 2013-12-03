@@ -1,0 +1,17 @@
+magic
+tech scmos
+timestamp 1386053173
+<< error_p >>
+rect 1016 724 1018 732
+<< error_s >>
+rect 3194 724 3196 732
+use kris_bit_final  kris_bit_final_0
+array 0 6 363 0 0 1032
+timestamp 1386052290
+transform 1 0 694 0 1 485
+box -41 -764 322 268
+use kris_bit_1  kris_bit_1_0
+timestamp 1386051930
+transform 1 0 3235 0 1 611
+box -41 -890 322 142
+<< end >>
